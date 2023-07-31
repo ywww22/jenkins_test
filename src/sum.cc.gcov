@@ -1,0 +1,6 @@
+        -:    0:Source:sum.cc
+        -:    1:#include "../inc/sum.h"
+        -:    2:
+        1:    3:int sum(int a, int b){
+        1:    4:    return (a+b);
+        -:    5:}

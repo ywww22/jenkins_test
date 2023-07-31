@@ -1,0 +1,13 @@
+        -:    0:Source:main.cc
+        -:    1:#include "../inc/sum.h"
+        -:    2:#include <iostream>
+        -:    3:
+        -:    4:using namespace std;
+        -:    5:
+        1:    6:int main(){
+        1:    7:    int a = sum(2,3);
+        -:    8:
+        1:    9:    cout << a << endl;
+        -:   10:
+        1:   11:    return 0;    
+        -:   12:}
