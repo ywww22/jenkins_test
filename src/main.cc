@@ -10,7 +10,7 @@ int main(){
     cout << "hello world!" << endl;
     cout << "this is test!" << endl;
     cout << "this is jenkins test!\n";
-    cout << "wow" << endl;
+    cout << "wow!" << endl;
 
     return 0;    
 }
