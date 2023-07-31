@@ -7,7 +7,7 @@ int main(){
     int a = sum(2,3);
 
     cout << a << endl;
-    cout << "hello world" << endl;
+    cout << "hello world!" << endl;
     cout << "this is test!" << endl;
     cout << "this is jenkins test!\n";
 
