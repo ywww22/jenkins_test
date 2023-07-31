@@ -11,6 +11,7 @@ int main(){
     cout << "this is test!" << endl;
     cout << "this is jenkins test!\n";
     cout << "jenkins test" << endl;
+    cout << "test\n";
 
     return 0;    
 }
