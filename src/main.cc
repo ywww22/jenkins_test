@@ -7,6 +7,7 @@ int main(){
     int a = sum(2,3);
 
     cout << a << endl;
+    cout << "hello world" << endl;
 
     return 0;    
 }
