@@ -8,6 +8,7 @@ int main(){
 
     cout << a << endl;
     cout << "hello world" << endl;
+    cout << "this is test" << endl;
 
     return 0;    
 }
