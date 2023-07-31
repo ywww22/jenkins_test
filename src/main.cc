@@ -9,8 +9,7 @@ int main(){
     cout << a << endl;
     cout << "hello world" << endl;
     cout << "this is test" << endl;
-    cout << "this is jenkins test\n";
-    cout << "this is jenkins\n";
+    cout << "this is jenkins test!\n";
 
     return 0;    
 }
