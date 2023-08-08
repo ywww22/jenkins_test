@@ -43,5 +43,5 @@ add_custom_target(sumTest
                     WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}
                     DEPENDS ${TARGET_TEST}
                     COMMAND mkdir -p ${COVERAGE_REPORT_DIR}
-                    COMMAND gcovr ${GCOV_FILE_DIR} -r src --html-details -o ${COVERAGE_REPORT_DIR}/gcov.html
+                    COMMAND gcovr ${GCOV_FILE_DIR} -r src --cobertura -o ${COVERAGE_REPORT_DIR}/coverage.xml
 )
