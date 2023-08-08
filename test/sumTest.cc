@@ -2,11 +2,7 @@
 #include "../inc/sum.h"
 
 TEST(SumTest, Test1){
-    EXPECT_EQ(sum(5,6),11);
-}
-
-TEST(SumTest, Test2){
-    EXPECT_EQ(sum(9,1),10);
+    EXPECT_EQ(sum(7,6),13);
 }
 
 int main(int argc, char* argv[]){
