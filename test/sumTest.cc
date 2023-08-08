@@ -3,6 +3,7 @@
 
 TEST(SumTest, Test1){
     EXPECT_EQ(sum(7,6),13);
+    EXPECT_EQ(sum(3,6),6);
 }
 
 int main(int argc, char* argv[]){
