@@ -6,7 +6,7 @@ TEST(SumTest, Test1){
 }
 
 TEST(SumTest, Test2){
-    sum("hello.txt");
+    sum("");
 }
 
 int main(int argc, char* argv[]){
