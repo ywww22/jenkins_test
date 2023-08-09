@@ -4,6 +4,7 @@
 using namespace std;
 
 void sum(string fName){
-    ifstream ifs(fName);
+    string name = fName;
+    ifstream ifs(name);
     ifs.close();
 }
