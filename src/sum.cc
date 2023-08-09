@@ -5,7 +5,7 @@ using namespace std;
 
 void sum(string fName){
     string *name = &fName;
-    cout << name << endl;
+    cout << *name << endl;
     ifstream ifs(*name);
     ifs.close();
 }
