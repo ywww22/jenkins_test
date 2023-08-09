@@ -6,7 +6,8 @@ TEST(SumTest, Test1){
 }
 
 TEST(SumTest, Test2){
-    sum("");
+    std::string name;
+    sum(name);
 }
 
 int main(int argc, char* argv[]){
