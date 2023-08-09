@@ -1,6 +1,7 @@
 #ifndef SUM_H
 #define SUM_H
+#include <iostream>
 
-int sum(int a, int b);
+void sum(std::string fName);
 
 #endif

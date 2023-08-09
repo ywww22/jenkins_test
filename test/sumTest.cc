@@ -2,8 +2,7 @@
 #include "../inc/sum.h"
 
 TEST(SumTest, Test1){
-    EXPECT_EQ(sum(7,6),13);
-    EXPECT_EQ(sum(3,6),6);
+    sum("hi.txt");
 }
 
 int main(int argc, char* argv[]){

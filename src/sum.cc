@@ -1,8 +1,8 @@
 #include "../inc/sum.h"
+#include <fstream>
 
-int sum(int a, int b){
-    if(a>b)
-        return (a+b);
-    else
-        return b;
+using namespace std;
+
+void sum(string fName){
+    ifstream ifs(fName);
 }
