@@ -6,7 +6,7 @@ TEST(SumTest, Test1){
 }
 
 TEST(SumTest, Test2){
-    std::string name;
+    std::string name = "t";
     sum(name);
 }
 
